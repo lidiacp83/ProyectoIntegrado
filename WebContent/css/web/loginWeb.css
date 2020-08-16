@@ -1,0 +1,80 @@
+.form-wrap {
+	padding-top: 5px;
+	padding-bottom: 75px;
+}
+
+h3.tituloForm {
+	padding-top: 20px;
+	padding-left: 15px;
+}
+
+.input-group-addon {
+	width: 45px;
+	height: 45px;
+	background: #727272;
+	margin-bottom: 15px;
+	margin-left: 10px;
+	border-radius: 4px 0 0 4px;
+}
+
+.input-group-addon i {
+	padding: 13px;
+	font-size: 20px;
+	color: #fff;
+}
+
+.contentForm {
+	padding-top: 5px;
+	padding-bottom: 75px;
+}
+
+input.form-control {
+	height: 45px;
+	margin-bottom: 15px;
+}
+
+button.btn {
+	padding-left: 40px;
+	padding-right: 40px;
+	margin: auto;
+	background-color: #ffc6c6;
+}
+
+a.nav-link {
+	font-size: 20px;
+	color: #e30072;
+	font-weight: 600;
+}
+
+a.nav-link:hover {
+	color: #e30072;
+}
+
+/* :::::::::::::::::::: RESPONSIVE :::::::::::::::::::::*/
+@media only screen and (max-width: 576px) {
+	h3.tituloForm {
+		padding-top: 20px;
+		font-size: 25px;
+	}
+	input.form-control {
+		height: 40px;
+		margin-bottom: 15px;
+		font-size: 13px;
+	}
+	.input-group-addon {
+		width: 40px;
+		height: 40px;
+		background: #727272;
+		margin-bottom: 12px;
+		margin-left: 0px;
+		border-radius: 4px 0 0 4px;
+	}
+	.input-group-addon i {
+		padding: 10px;
+	}
+	.nav-tabs {
+		margin-top: 20p;
+		height: 48px;
+		border-bottom: 1px solid #dee2e6;
+	}
+}

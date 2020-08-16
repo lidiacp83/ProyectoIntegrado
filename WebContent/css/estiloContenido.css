@@ -1,0 +1,421 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	font-family: 'Titillium Web', sans-serif;
+	height: 100%;
+	background: none;
+	color: #727272;
+}
+
+h2 {
+	font: bold 23px 'Titillium Web';
+	color: #727272;
+	border-bottom: 1px solid #727272;
+	margin-bottom: 30px;
+}
+
+h3 {
+	font: bold 18px 'Titillium Web';
+	color: #727272;
+	border-bottom: 1px solid #727272;
+	margin-bottom: 30px;
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+form {
+	padding: 40px 40px 40px 40px;
+}
+
+select {
+	width: 328px;
+	height: 36px;
+	margin-right: 20px;
+	margin-bottom: 15px;
+	font: 16px 'Titillium Web';
+	color: #787878;
+}
+
+img#imagenData {
+	margin-top: 20px;
+	width: 30%;
+}
+
+/* ::::::::::::::::::::: BOTONES :::::::::::::::::: */
+.btnAcciones {
+	cursor: pointer;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 21px;
+	background: none;
+	border: none;
+	color: #787878;
+}
+
+.btnKeyGen1 {
+	position: absolute;
+	top: 522px;
+	cursor: pointer;
+	padding: 5px 18px 5px 18px;
+	box-shadow: inset 0px 0px 7px 0px #fc527;
+	background-color: #3e7d87;
+	border-radius: 4px;
+}
+
+.btnKeyGen2 {
+	position: absolute;
+	top: 566px;
+	cursor: pointer;
+	padding: 5px 18px 5px 18px;
+	box-shadow: inset 0px 0px 7px 0px #fc527;
+	background-color: #3e7d87;
+	border-radius: 4px;
+}
+
+.btnExcel {
+	width: auto;
+	cursor: pointer;
+	padding: 7px 20px 7px 20px;
+	margin-right: 10px;
+	margin-bottom: 40px;
+	box-shadow: inset 0px 0px 7px 0px #33656d;
+	background: #3e7d87;
+	border-radius: 4px;
+}
+
+.btnBuscar {
+	width: auto;
+	cursor: pointer;
+	padding: 7px 20px 7px 20px;
+	margin-right: 10px;
+	margin-bottom: 40px;
+	box-shadow: inset 0px 0px 7px 0px #7a7979c7;
+	background-color: #929292e0;
+	border-radius: 4px;
+}
+
+.btnEditar, .btnAdd {
+	width: auto;
+	cursor: pointer;
+	padding: 7px 20px 7px 20px;
+	margin-right: 10px;
+	margin-bottom: 40px;
+	box-shadow: inset 0px 0px 7px 0px #ffbd23;
+	background-color: #ffce5a;
+	border-radius: 4px;
+}
+
+.btnAdd, .btnKeyGen1, .btnKeyGen2, .subir, .btnExcel, .btnBuscar,
+	.btnEditar, .btnBuscar i {
+	font-size: 21px;
+	color: #787878;
+}
+
+span.txtBtn {
+	font: 16px 'Titillium Web';
+	color: #787878;
+	margin: 0;
+	padding: 0;
+}
+
+label.subir {
+	padding: 10px 30px 10px 30px;
+	font: 16px 'Titillium Web';
+	background: #3e7d87;
+	color: #fff;
+	border: 0px solid #fff;
+	box-shadow: 1px 1px 1px 0px #808080;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+span.txtBtnBlanco {
+	font: 16px 'Titillium Web';
+	color: #fff;
+	margin: 0;
+	padding: 0;
+	text-shadow: 1px solid #000;
+}
+
+.fa-key:before, .fa-cloud-upload-alt:before, .fa-file-excel:before,
+	.fa-search:before, .fa-arrow-circle-left:before, .fa-print:before {
+	color: #fff;
+}
+
+/* :::::::::::::::::::::::::::::::::::::::::::::::: */
+
+/* :::::::::::::::::::: INPUTS :::::::::::::::::::: */
+input[type="submit"] {
+	box-shadow: inset 0px 0px 7px 0px #e4e4e4;
+	background-color: #efefef;
+	border-radius: 4px;
+	display: inline-block;
+	cursor: pointer;
+	color: #787878;
+	font: 16px 'Titillium Web';
+	padding: 7px 30px;
+	text-decoration: none;
+	text-shadow: 1px 1px 1px #fff;
+}
+
+input[type="text"] {
+	display: inline-block;
+	cursor: text;
+	color: #787878;
+	font: 16px 'Titillium Web';
+	width: 320px;
+	height: 30px;
+	margin-bottom: 10px;
+	padding-left: 5px;
+}
+
+/* ::::::::::::::::::: TABLAS ::::::::::::::::::::: */
+.estiloForm table {
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+}
+
+.estiloForm td {
+	height: 40px;
+	border-bottom: 1px solid #ccc;
+	padding-left: 10px;
+}
+
+.estiloFormBorderNo table {
+	border: none;
+}
+
+form.formularioInicio td {
+	height: 40px;
+	border-bottom: 1px solid #ccc;
+	padding-left: 10px;
+	white-space: nowrap;
+}
+
+table.contentTable {
+	margin-bottom: 40px;
+}
+
+table#tblData {
+	margin-bottom: 40px;
+}
+
+table#tblData td {
+	border-bottom: 1px solid #ccc;
+}
+
+table.tableData {
+	width: 100%;
+}
+
+th.total {
+	background: #fd7b9c6b;
+	color: #fff;
+	font: bold 18px 'Titillium Web';
+	text-shadow: 1px 1px 1px #000;
+	height: 26px;
+	width: 1%;
+	padding-left: 10px;
+	white-space: nowrap;
+	text-align: left;
+}
+
+th.cantidadTotal {
+	text-align: left;
+	padding-left: 10px;
+	font: bold 18px 'Titillium Web';
+	border-bottom: 1px solid #ccc;
+}
+
+td.data {
+	height: 40px;
+	padding-left: 10px;
+	white-space: nowrap;
+}
+
+.cabeceraTabla th, .cabeceraTabla td {
+	background: #ff9d9d;
+	color: #fff;
+	font: bold 18px 'Titillium Web';
+	text-shadow: 1px 1px 1px #000;
+	height: 26px;
+	width: 1%;
+	padding-left: 10px;
+	white-space: nowrap;
+	text-align: initial;
+}
+
+/* :::::::::::::::::::::::::::::::::::::::::::::::: */
+
+/* ::::::::::::: POSICIÓN DIV INDEX.JSP ::::::::::: */
+#header {
+	position: relative;
+	height: 15%;
+	width: 100%;
+	z-index: 3;
+}
+
+#footer {
+	position: fixed;
+	bottom: 0px;
+	height: 6%;
+	width: 100%;
+	background-color: #ffdfe8;
+	z-index: 3;
+}
+
+#menu {
+	height: 100%;
+	position: absolute;
+	float: left;
+	z-index: 2;
+	width: 20%;
+}
+
+#container {
+	height: 100%;
+	position: absolute;
+	left: 20%;
+	float: right;
+	z-index: 2;
+	width: 80%;
+}
+/* :::::::::::::::::::::::::::::::::::::::::::::::: */
+
+/* :::::::::::::::::: MENÚ LATERAL :::::::::::::::: */
+i.fa.fa-caret-right {
+	float: right;
+}
+
+i.fa.fa-address-card, i.fa.fa-clipboard-list, i.fa.fa-images, i.fa.fa-box-open,
+	i.fa.fa-user, i.fa.fa-power-off, i.fa.fa-home:before {
+	font-size: 22px;
+	position: absolute;
+	top: 17px;
+	left: 16px;
+	padding-left: 28px;
+	color: #727272;
+}
+
+.fa-power-off:before {
+	color: #727272
+}
+
+span.optionMenu {
+	font-weight: 150;
+	margin-left: 18px;
+	padding-left: 28px;
+	color: #727272
+}
+
+.acordeon-menu {
+	background: #fff;
+	border-right: 1px solid #ccc;
+}
+
+.acordeon-menu li.open .link {
+	color: #fd7b9c;
+}
+
+.acordeon-menu li.open .fa.fa-caret-right {
+	transform: rotate(90deg);
+}
+
+.link {
+	cursor: pointer;
+	display: block;
+	padding: 15px 15px 15px 45px;
+	font-size: 18px;
+	border-bottom: 1px solid #ccc;
+	color: #727272;
+	position: relative;
+	transition: all 0.4s ease-out;
+}
+
+.submenuItems {
+	display: none;
+	background: #ffe6ea;
+}
+
+a#inicio {
+	font: bold 20px 'Titillium Web';
+	color: #727272;
+	padding-left: 43px;
+}
+
+.submenuItems a {
+	display: block;
+	color: #727272;
+	padding: 12px 12px 12px 45px;
+	transition: all 0.4s ease-out;
+}
+
+.submenuItems a:hover {
+	background-color: #fd7b9c;
+	color: #fff;
+}
+
+.cabeceraMenu {
+	padding: 35px 15px 15px 25px;
+	border-bottom: 1px solid #ccc;
+	position: relative;
+}
+
+img.logo {
+	width: 100%;
+	top: 15px;
+	left: 20px;
+	visibility: visible;
+	z-index: 1;
+}
+/* :::::::::::::::::::::::::::::::::::::::::::::::: */
+.add, .edit, .save, .delete {
+	outline: none;
+	background: none;
+	border: none;
+}
+
+.edit, .save, .delete {
+	padding: 5px 10px;
+	cursor: pointer;
+}
+
+.add {
+	float: right;
+	background: transparent;
+	border: 1px solid #ffffff;
+	color: #ffffff;
+	font-size: 13px;
+	padding: 0;
+	padding: 3px 5px;
+	cursor: pointer; &: hover { background : #ffffff;
+	color: #00adee;
+}
+
+}
+.save {
+	display: none;
+	color: #727272;
+	font: bold 20px 'Titillium Web';
+}
+
+.edit, .delete i {
+	color: #727272;
+	font-size: 20px;
+}
+
+.delete {
+	color: #727272;
+}
+
+input.campoCantidad {
+	border: none;
+	height: 30px
+}

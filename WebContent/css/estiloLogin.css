@@ -1,0 +1,53 @@
+/* :::::::::::::::::::: LOGIN GESTIÓN :::::::::::::::::::::*/
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.text-center {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: center;
+	align-items: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	position: absolute;
+	top: -20px;
+	left: -20px;
+	right: -40px;
+	bottom: -40px;
+	width: auto;
+	height: auto;
+	background-image: url(../img/fondoBN2.jpg);
+	background-size: cover;
+}
+
+.logo {
+	padding-bottom: 40px;
+}
+
+.form-signin {
+	width: 100%;
+	max-width: 400px;
+	padding: 45px;
+	margin: auto;
+	background-color: #fff;
+	border-radius: 10px;
+	z-index: 10;
+	border: 1px solid #ccc;
+	box-shadow: 0px 0px 7px 0px #aaaaaa;
+}
+
+input.form-control {
+	height: 45px;
+	margin-bottom: 15px;
+}
+
+button.btn {
+	padding-left: 40px;
+	padding-right: 40px;
+	margin: auto;
+	background-color: #ffc6c6;
+}
